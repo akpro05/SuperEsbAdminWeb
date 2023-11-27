@@ -2,7 +2,7 @@
 version: '3.7'
 services:
   superesb_adminweb:
-    image: superesb_admin
+    image: pro05/superesb-local-superesbadminweb:latest
     container_name: superesb_admin
     network_mode: host
     logging:
