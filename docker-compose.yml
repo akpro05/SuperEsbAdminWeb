@@ -1,0 +1,11 @@
+# This docker file is for development/local environment
+version: '3.7'
+services:
+  superesb_adminweb:
+    image: superesb_admin
+    container_name: superesb_admin
+    network_mode: host
+    logging:
+      driver: syslog
+      #options:
+      #  syslog-address: "tcp://localhost:5067"

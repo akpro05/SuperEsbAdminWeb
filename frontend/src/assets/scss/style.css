@@ -1,0 +1,44 @@
+.pagination-container {
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px; 
+  }
+  
+  .css-1jt3gu9-MuiInputBase-root-MuiTablePagination-select {
+      margin-top: -17px!important;
+  }
+  .css-teccuw-MuiToolbar-root-MuiTablePagination-toolbar .MuiTablePagination-actions {
+      margin-top: -17px!important;
+  }
+  .exportbutton{
+	      font-weight: bold;
+    	  color: black;
+    	  background-color: #d8d8d8;
+          margin: 7px;
+          border-radius: 4px;
+          border: 1px solid;
+          /*background: darkgoldenrod;
+          color:white;*/
+  }
+.exportbutton:hover{
+	background-color: rgb(20, 120, 200)!important;
+}
+  .btn-block{
+      right: 30px!important;
+      top: 10px!important;
+      position: absolute!important;
+      color: #673ab7!important;
+      background-color: white!important;
+      font-family: 'Roboto',sans-serif!important;
+      display: flex!important;
+      alignItems: center!important;
+      justifyContent: center!important;
+  }
+
+.no-border {
+  border-radius:none;
+  border: none;
+  border-bottom:1px solid #807d7b;
+}
+      
